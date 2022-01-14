@@ -5,18 +5,17 @@ namespace TemplateMethods.Classes
 {
     class ICPP : TemplateImpostoCondicional
     {
-        public bool DeveUsarMaximaTaxacao(Orcamento orcamento)
+        public override bool DeveUsarTaxacaoMaxima(Orcamento orcamento)
         {
             return orcamento.Valor >= 500;
         }
 
-
-        public double MaximaTaxacao(Orcamento orcamento)
+        public override double MaximaTaxacao(Orcamento orcamento)
         {
             return orcamento.Valor * 0.07;
         }
 
-        public double MinimaTaxacao(Orcamento orcamento)
+        public override double MinimaTaxacao(Orcamento orcamento)
         {
             return orcamento.Valor * 0.05;
         }

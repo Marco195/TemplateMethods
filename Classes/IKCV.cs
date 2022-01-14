@@ -6,17 +6,17 @@ namespace TemplateMethods.Classes
 {
     public class IKCV : TemplateImpostoCondicional
     {
-        public bool DeveUsarTaxacaoMaxima(Orcamento orcamento)
+        public override bool DeveUsarTaxacaoMaxima(Orcamento orcamento)
         {
             return orcamento.Valor > 500 && temitemMaiorQue100ReaisNo(orcamento);
         }
 
-        public double MaximaTaxacao(Orcamento orcamento)
+        public override double MaximaTaxacao(Orcamento orcamento)
         {
             return orcamento.Valor * 0.1;
         }
 
-        public double MaximaTaxacao(Orcamento orcamento)
+        public override double MinimaTaxacao(Orcamento orcamento)
         {
             return orcamento.Valor * 0.06;
         }

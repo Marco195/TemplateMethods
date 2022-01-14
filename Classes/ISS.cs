@@ -1,6 +1,7 @@
 ﻿using System;
-using StrategyTest.Interfaces;
-namespace StrategyTest.Classes
+using TemplateMethods.Interfaces;
+
+namespace TemplateMethods.Classes
 {
     class ISS : Imposto
     {

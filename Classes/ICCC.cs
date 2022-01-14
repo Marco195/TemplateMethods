@@ -1,9 +1,9 @@
-﻿using StrategyTest.Interfaces;
+﻿using TemplateMethods.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace StrategyTest.Classes
+namespace TemplateMethods.Classes
 {
     class ICCC : Imposto
     {

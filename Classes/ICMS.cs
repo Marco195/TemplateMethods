@@ -1,7 +1,7 @@
 ﻿using System;
-using StrategyTest.Interfaces;
+using TemplateMethods.Interfaces;
 
-namespace StrategyTest.Classes
+namespace TemplateMethods.Classes
 {
     class ICMS : Imposto
     {

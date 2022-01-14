@@ -1,6 +1,6 @@
 ﻿using System;
-using StrategyTest.Classes;
-using StrategyTest.Interfaces;
+using TemplateMethods.Classes;
+using TemplateMethods.Interfaces;
 
 namespace StrategyTest.Classes
 {
